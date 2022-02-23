@@ -23,9 +23,9 @@ body {
   font-size: 16px;
   border: none;
   border-radius: 5px;
-  padding: 12px;
-  width: 172px;
-  height: 48px;
+  padding: 12px 25px;
+  /* width: 172px;
+  height: 48px; */
   cursor: pointer;
 }
 .header-section img {
@@ -66,4 +66,26 @@ body {
   border-radius: 26px;
   padding: 25px;
   margin: 30px;
+}
+
+.develop-coding {
+  background-image: url(images/shapes/shape-10.png);
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  display: flex;
+}
+.develop-coding img {
+  width: 400px;
+  height: 400px;
+}
+#develop-detail {
+  padding-left: 10%;
+}
+
+.develop-details h1 {
+  font-size: 36px;
+}
+
+#global-commuinity-para {
+  width: 80%;
 }
