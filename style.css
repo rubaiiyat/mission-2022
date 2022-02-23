@@ -1,11 +1,12 @@
 body {
   font-family: "Poppins", sans-serif;
-  margin: 0 7%;
+  /* margin: 0% 7%; */
 }
 .header-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 7%;
 }
 .header-title {
   font-size: 60px;
@@ -40,6 +41,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 7%;
 }
 .my-mission-details {
   width: 360px;
@@ -67,25 +69,52 @@ body {
   padding: 25px;
   margin: 30px;
 }
-
-.develop-coding {
-  background-image: url(images/shapes/shape-10.png);
+.develop-background {
+  background-image: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
-  margin-top: 40px;
+  background-size: 227px;
+  background-position: 0% 50%;
+}
+.develop-coding {
   display: flex;
+  margin-top: 40px;
+  width: 92%;
 }
 .develop-coding img {
+  margin-left: 28%;
   width: 400px;
   height: 400px;
 }
 #develop-detail {
-  padding-left: 10%;
+  padding-left: 20%;
 }
 
 .develop-details h1 {
   font-size: 36px;
 }
+.global-community {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 7%;
+}
+.global-community img {
+  width: 400px;
+  height: 400px;
+  margin-left: 30%;
+}
+.global-community h1 {
+  font-size: 36px;
+}
+.global-community-details {
+  width: 50%;
+}
+.global-community-background {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 227px;
+  background-position: 98% 95%;
+}
 
-#global-commuinity-para {
-  width: 80%;
+.paragraph {
+  margin-top: 10%;
 }
